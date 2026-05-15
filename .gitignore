@@ -1,0 +1,20 @@
+# Игнорируем папки отладки и временные файлы
+Debug/
+obj/
+.vs/
+*.user
+*.suo
+*.log
+*.cache
+*.pdb
+
+# Игнорируем папку bin ВНУТРИ проектов, но разрешаем общую папку Release, если она в корне
+App/bin/
+Core/bin/
+Tests/bin/
+
+# Разрешаем кодировку UTF-8
+*.cs text eol=crlf
+*.xaml text eol=crlf
+*.txt text eol=crlf
+*.md text eol=crlf
